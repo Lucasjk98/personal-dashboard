@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+    max-width: 100%;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+h1.time {
+    text-align: center;
+}
+
+div#crypto {
+    font-size: .75rem;
+    border: 2px solid white;
+    background-color: lightblue;
+    padding: .75rem;
+}
+
+div#crypto > p {
+    margin: 0;
+    max-width: 5rem;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+
+
+div#crypto2 {
+    font-size: .75rem;
+    margin-right: 65%;
+    border: 2px solid white;
+    background-color: lightblue;
+    padding: .75rem;
+}
+
+div#crypto2 > p {
+    margin: 0;
+    max-width: 5rem;
+    
+}
+
+div#crypto-top2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top2 > span {
+    margin-right: 10%;
+}
+
+
+.crypto-container{
+    display: flex;
+}
+
+.weather-top{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+#weather-bottom{
+    width:100%;
+    text-align: right;
+    margin: 0;
+}
